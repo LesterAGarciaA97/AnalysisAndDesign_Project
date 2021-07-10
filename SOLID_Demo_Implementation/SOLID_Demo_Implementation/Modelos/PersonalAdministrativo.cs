@@ -5,28 +5,17 @@ using System.Text;
 
 namespace SOLID_Demo_Implementation.Modelos
 {
-    public class Cliente : ILogin, ICliente
+    public class PersonalAdministrativo : ILogin, IPersonalAdministrativo
     {
-
         public void iniciarSesion()
         {
             throw new NotImplementedException();
         }
 
-        public void canjearPuntos()
+        public void generarReporte()
         {
             throw new NotImplementedException();
         }
 
-        
-        public void modificarDatos()
-        {
-            throw new NotImplementedException();
-        }
-
-        public void pagoServicios()
-        {
-            throw new NotImplementedException();
-        }
     }
 }

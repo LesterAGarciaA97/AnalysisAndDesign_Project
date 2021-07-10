@@ -10,9 +10,7 @@ namespace SOLID_Demo_Implementation.Interfaces
         /// Método 01
         /// </summary>
         /// <returns>Este método retorna el reporte solicitado</returns>
-        public string solicitarReporte()
-        {
-            return "El reporte del mes de Julio";
-        }
+        void solicitarReporte();
+        
     }
 }

@@ -9,9 +9,7 @@ namespace SOLID_Demo_Implementation.Interfaces
         /// <summary>
         /// Método 01 - Este método genera el reporte deseado
         /// </summary>
-        public void generarReporte()
-        {
-
-        }
+        void generarReporte();
+        
     }
 }
