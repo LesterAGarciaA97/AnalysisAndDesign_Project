@@ -1,8 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
-
-namespace SOLID_Demo_Implementation.Interfaces
+﻿namespace SOLID_Demo_Implementation.Interfaces
 {
     public interface ICliente
     {
@@ -21,7 +17,5 @@ namespace SOLID_Demo_Implementation.Interfaces
         /// Método 03 - Este método hace el proceso del caje de puntos 
         /// </summary>
         void canjearPuntos();
-        
-
     }
 }
